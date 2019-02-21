@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ValueDate Accept DateTimeFormat as argument 1`] = `
+<time datetime="2019-02-20T03:14:55.000Z" data-variant="time" data-value="1550632495000" data-locale="de-DE" data-alternate="22:14:55" data-time-zone="America/Montreal">
+  22:14:55
+</time>
+`;
+
+exports[`ValueDate Accept DateTimeFormat as argument 2`] = `
+Object {
+  "full": Object {
+    "day": "numeric",
+    "hour": "numeric",
+    "hour12": false,
+    "minute": "numeric",
+    "month": "long",
+    "second": "numeric",
+    "timeZoneName": "long",
+    "weekday": "long",
+    "year": "numeric",
+  },
+  "long": Object {
+    "day": "numeric",
+    "month": "long",
+    "weekday": "long",
+    "year": "numeric",
+  },
+  "short": Object {
+    "day": "2-digit",
+    "hour": "2-digit",
+    "minute": "2-digit",
+    "month": "2-digit",
+    "year": "numeric",
+  },
+  "shorter": Object {
+    "day": "numeric",
+    "month": "long",
+    "year": "numeric",
+  },
+  "time": Object {
+    "hour": "numeric",
+    "hour12": false,
+    "minute": "numeric",
+    "second": "numeric",
+  },
+}
+`;
+
+exports[`ValueDate Accept DateTimeFormat as argument 3`] = `
+<time datetime="2019-02-20T03:14:55.000Z" data-variant="long" data-value="1550632495000" data-locale="de-DE" data-alternate="Wednesday, February 20, 2019" data-time-zone="America/Fortaleza">
+  Tuesday, February 19, 2019
+</time>
+`;
+
+exports[`ValueDate Accept DateTimeFormat as argument 4`] = `
+<time datetime="2019-02-20T03:14:55.000Z" data-variant="full" data-value="1550632495000" data-locale="de-DE" data-alternate="Wednesday, February 20, 2019, 04:14:55 Central European Standard Time" data-time-zone="Europe/Berlin">
+  Tuesday, February 19, 2019, 22:14:55 GMT-05:00
+</time>
+`;
+
+exports[`ValueDate Accept DateTimeFormat as argument 5`] = `
+<time datetime="2019-02-20T03:14:55.000Z" data-variant="long" data-value="1550632495000" data-locale="fr-CA" data-alternate="Tuesday, February 19, 2019" data-time-zone="America/Montreal">
+  Tuesday, February 19, 2019
+</time>
+`;
